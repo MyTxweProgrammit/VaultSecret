@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "commander": "^15.0.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
