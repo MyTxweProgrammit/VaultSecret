@@ -1,10 +1,35 @@
 {
+  "name": "vaultsecret",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "...",
+  "main": "./dist/vaultManager.js",
+  "types": "./dist/vaultManager.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "dependencies": {
     "commander": "^15.0.0",
     "crypto": "^1.0.1",
     "fs": "^0.0.1-security"
   },
   "devDependencies": {
-    "@types/node": "^26.6.6"
-  }
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyTxweProgrammit/VaultSecret.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyTxweProgrammit/VaultSecret/issues"
+  },
+  "homepage": "https://github.com/MyTxweProgrammit/VaultSecret#readme"
 }

@@ -1,5 +1,14 @@
 {
-    "compilerOptions": {
-        "types": ["node"]
-    }
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "types": ["node"],
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
